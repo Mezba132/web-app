@@ -40,23 +40,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./src/js/App.js":
-/*!***********************!*\
-  !*** ./src/js/App.js ***!
-  \***********************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _components_Text_text__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Text/text */ \"./src/components/Text/text.js\");\n/* harmony import */ var _components_ToolBar_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ToolBar/header */ \"./src/components/ToolBar/header.js\");\n/* harmony import */ var _components_ToolBar_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ToolBar/footer */ \"./src/components/ToolBar/footer.jsx\");\n\n\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"App\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ToolBar_header__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Text_text__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ToolBar_footer__WEBPACK_IMPORTED_MODULE_3__.default, null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack://basic_react_js/./src/js/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _js_Root_App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/Root/App */ \"./src/js/Root/App.js\");\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_js_Root_App__WEBPACK_IMPORTED_MODULE_3__.default, null), document.getElementById('root'));\n\n//# sourceURL=webpack://basic_react_js/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/js/index.js":
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
+/***/ "./src/js/Root/App.js":
+/*!****************************!*\
+  !*** ./src/js/Root/App.js ***!
+  \****************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ \"./src/js/App.js\");\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_App__WEBPACK_IMPORTED_MODULE_3__.default, null), document.getElementById('root'));\n\n//# sourceURL=webpack://basic_react_js/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _components_Text_text__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Text/text */ \"./src/components/Text/text.js\");\n/* harmony import */ var _components_ToolBar_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/ToolBar/header */ \"./src/components/ToolBar/header.js\");\n/* harmony import */ var _components_ToolBar_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ToolBar/footer */ \"./src/components/ToolBar/footer.jsx\");\n\n\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"App\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ToolBar_header__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Text_text__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ToolBar_footer__WEBPACK_IMPORTED_MODULE_3__.default, null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack://basic_react_js/./src/js/Root/App.js?");
 
 /***/ }),
 
@@ -259,7 +259,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /************************************************************************/
 /******/ 	// startup
 /******/ 	// Load entry module
-/******/ 	__webpack_require__("./src/js/index.js");
+/******/ 	__webpack_require__("./src/index.js");
 /******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;
