@@ -1,13 +1,18 @@
 import React from 'react';
-import Text from '../../components/Text/text';
 import Header from "../../components/ToolBar/header";
 import Footer from '../../components/ToolBar/footer';
+import ReactPlayer from 'react-player'
 
 const App = () => {
   return (
     <div className="App">
       <Header/>
-      <Text />
+        <div className="video-player player-wrapper">
+          <ReactPlayer 
+            controls
+            url='videos/POIRIER_vs_MCGREGOR.mp4' 
+          />
+        </div>
       <Footer/>
     </div>
   )
