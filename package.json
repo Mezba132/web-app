@@ -8,12 +8,14 @@
     "@testing-library/user-event": "^12.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "webpack --mode=development",
+    "start": "webpack --watch --mode=development",
     "build": "webpack --mode=production",
     "dev": "webpack-dev-server"
   },
