@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from "../Header/Header";
+import Header from "../Header/Index";
 import Footer from '../Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
@@ -22,11 +22,11 @@ class home extends Component {
                     <Header/>
                         
                         <div className="video-player player-wrapper">
-                        <ReactPlayer 
-                            controls
-                            url='videos/POIRIER_vs_MCGREGOR.mp4' 
-                            playing={true}
-                        />
+                        {/*<ReactPlayer */}
+                        {/*    controls*/}
+                        {/*    url='videos/POIRIER_vs_MCGREGOR.mp4' */}
+                        {/*    playing={true}*/}
+                        {/*/>*/}
                         </div>
 
                     <Footer/>
